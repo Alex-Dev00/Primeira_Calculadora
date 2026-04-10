@@ -14,6 +14,8 @@ def multiplicacao(num1, num2):
 def divisao(num1, num2):
     if num2 == 0:
         return "Erro: Divisão por zero!"
+    elif num1 == 0:
+        return "Erro: Divisão por zero!"
     resultado = num1 / num2
     return resultado
 
